@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jun  2 12:51:01 2023
-
 @author: Heba
 """
 "We need to compare all our risk factors and found out what makes a bigger risk than other things, then create some sort of score (well that doesn't sound like the right word but yk, something to weigh their risk')"
@@ -9,8 +7,8 @@ Created on Fri Jun  2 12:51:01 2023
 RiskFactor = 0
 
 "user input for height and weight (metric scale)"
-weight = float(input("Enter your weight (Kg): "))
-height = float(input("Enter your height (M): "))
+weight = float(input("Enter your weight (Kilograms): "))
+height = float(input("Enter your height (Meters): "))
 sex = (input("M or F: "))
 
 "calculate their bmi, based on given weight/height"
